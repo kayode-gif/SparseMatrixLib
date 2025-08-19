@@ -119,10 +119,8 @@ SparseMatrixLib/
 
 ## Why I built this
 
-I was interested in learning about sparse matrix algorithms and wanted to implement something that could actually be useful. Sparse matrices are used everywhere in scientific computing, machine learning, and graph algorithms, so understanding how to work with them efficiently is valuable.
+This is a learning project I built to explore sparse matrix algorithms since these are used in many different fields, so understanding how they work under the hood is important. I wanted also to get a feel with C++ programming which I have started learning over summer.
 
-The CSR format is one of the most common sparse matrix formats, and implementing it from scratch helped me really understand how it works under the hood.
 
 ---
-
-This is a learning project I built to explore sparse matrix algorithms and C++ programming. Feel free to check out the code or run the benchmarks! 
+Feel free to check out the code or run the benchmarks! 
