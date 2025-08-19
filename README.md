@@ -35,15 +35,15 @@ In CSR format:
 
 ## Building and running
 
-You'll need a C++17 compiler. I used g++ on macOS/Linux.
+You'll need a C++17 compiler. I used clang++ on macOS.
 
 ```bash
 # Compile and run tests
-g++ -std=c++17 -O2 sparse_matrix_test.cpp SparseMatrixCSR.cpp -o tests
+clang++ -std=c++17 sparse_matrix_test.cpp SparseMatrixCSR.cpp -o tests
 ./tests
 
 # Compile and run benchmarks
-g++ -std=c++17 -O2 benchmark.cpp SparseMatrixCSR.cpp -o benchmark
+clang++ -std=c++17 benchmark.cpp SparseMatrixCSR.cpp -o benchmark
 ./benchmark
 ```
 
